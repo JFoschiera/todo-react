@@ -1,0 +1,56 @@
+.App {
+  width: 40%;
+  height: 95vh;
+  margin: 25px auto;
+  background-color: #36413e;
+  border-radius: 4px;
+}
+
+.todo-header {
+  padding: 20px;
+  border-bottom: #f6efee 2px solid;
+}
+
+.todo-header h1 {
+  margin: 0;
+}
+
+.form-todo {
+  padding: 30px;
+  border-bottom: #f6efee 2px solid;
+}
+
+.form-todo h3 {
+  margin-top: 0;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #de9e36;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background-color: #de9e36;
+  color: #f6efee;
+  border: 2px solid #f6efee;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
